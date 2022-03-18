@@ -5,7 +5,7 @@ let rawdata = fs.readFileSync('config.json');
 let data = JSON.parse(rawdata);
 var lasttime = -1;
 var moving = 0;
-var first = false;
+var first = true;
 var connected = 0;
 var actions = [ 'forward', 'back', 'left', 'right']
 var lastaction;
